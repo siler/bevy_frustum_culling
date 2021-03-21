@@ -8,8 +8,8 @@ edition = "2018"
 
 [dependencies]
 #bevy = { version = "0.4", default-features = false, features = ["render"] }
-bevy = { git = "https://github.com/bevyengine/bevy", branch = "main", default-features = false, features = ["render"] }
-bevy_mod_bounding = { git = "https://github.com/aevyrie/bevy_mod_bounding", branch = "master" }
+bevy = { git = "https://github.com/siler/bevy", branch = "main", default-features = false, features = ["render"] }
+bevy_mod_bounding = { git = "https://github.com/siler/bevy_mod_bounding", branch = "master" }
 
 [features]
 ex = ["bevy/bevy_wgpu", "bevy/bevy_winit", "bevy/bevy_gltf", "bevy/x11"]
